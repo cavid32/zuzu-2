@@ -2,21 +2,39 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    
+
+    .orta{
+      width: 90%;
+      display: flex;
+    }
 }
 .section1{
     width: 100%;
+    margin: 0 auto;
     display: flex;
+    flex-direction: column;
     justify-content: center;
     background-image: url(./picture/crypto-card-hero-bgs.png);
     
     header{
-     width: 85%;
+      margin: 0 auto;
+     width: 89%;
     display: flex;
     justify-content: space-between;
     margin-top: 20px;
+    flex-wrap: wrap;
+
+    .text--1{
+      display: none;
+
+      h1{
+         font-size: 17px;
+      }
+    }
 
      .demos{
-        width: 53%;
+        width: 48%;
         display: flex;
 
         ul{
@@ -44,7 +62,257 @@
             color: white;
             border-radius: 20px;
             padding: 10px;
+            outline: 0;
+            cursor: pointer;
         }
      }
         }
+        .text-1{
+         width: 100%;
+         display: flex;
+         margin: 40px 0px;
+         justify-content: end;
+         .orta-1{
+            width: 90%;
+            display: flex;
+            margin: 0 auto;
+           .text{
+         width: 50%;
+         display: flex;
+         
+          h1{
+            color: white;
+            font-size: 80px;
+             font-weight: 700;
+             line-height: 1.075em;
+          }
+
+        }
+        .picture{
+          width: 40%;
+         img{
+            width: 70%;
+            transform: rotate(11deg);
+         }
+        }
+      
+      }
+
+      }
+      .all{
+         width: 100%;
+         display: flex;
+         justify-content:end;
+         margin-top: 30px;
+      
+         .orta-2{
+          width: 90%;
+          display: flex;
+          margin: 0 auto;
+          justify-content: space-between;
+         
+         .text{
+           width: 35%;
+            h1{
+               font-size: 19px;
+               color: white;
+            }
+         }
+         .picture{
+              width: 40%;
+            img{
+               width: 70%;
+               transform: rotate(355deg);
+            }
+         }
+      }
+      }
+   .orta-3{
+      width: 90%;
+      display:flex;
+      align-items: center;
+      margin: 0 auto;
+      padding-bottom: 40px;
+      
+      
+         .button{
+            width: 150px;
+           
+
+            button{
+               padding: 15px;
+               border-radius: 20px;
+               cursor: pointer;
+               border: none;
+            }
+         }
+         .start{
+           margin-right: 20px;
+
+            i{
+               font-size: 40px;
+               color: white;
+            }
+         }
+         .text{
+
+            h1{
+               color: white;
+            }
+         }
+   
+   }
 }
+.section2{
+   width: 100%;
+   display: flex;
+   flex-direction: column;
+   background-color: #000000;
+
+   .up{
+      width: 90%;
+      margin-top: 100px;
+      display: flex;
+      margin: 0 auto;
+      justify-content: space-between;
+      padding-top: 40px;
+
+      .one{
+
+         h1{
+            font-size: 80px;
+            color: white;
+         }
+         span{
+            font-size: 20px;
+            color:white
+         }
+      }
+      .two{
+         h1{
+            font-size: 80px;
+            color: white;
+         }
+         span{
+            font-size: 20px;
+            color:white;
+         }
+      }
+      .three{
+
+         h1{
+            font-size: 80px;
+            color:white
+         }
+         span{
+            font-size: 20px;
+            color:white;
+         }
+      }
+      .four{
+         h1{
+            font-size: 80px;
+            color:white
+         }
+         span{
+            font-size: 20px;
+            color:white;
+         }
+      }
+   }
+   .up-1{
+      width: 90%;
+      display: flex;
+      margin: 0 auto;
+      justify-content: space-between;
+      padding-top: 100px;
+
+      .img{
+       width: 40%;
+
+       img{
+         width: 100%;
+       }
+      }
+      .text{
+         width: 45%;
+         display: flex;
+         flex-direction: column;
+         gap: 15px;
+     }
+         h1{
+            color:white;
+            font-size: 50px;
+         }
+         p{
+            color: white;
+            font-size: 20px;
+         }
+         span{
+            font-size: 20px;
+            color: white;
+         }
+      }
+   }
+   .section3{
+      width: 100%;
+      display: flex;
+     background-color: #000000;
+
+     .orta-4{
+      width: 90%;
+      display: flex;
+      margin: 0 auto;
+   
+
+      .left-1{
+         width: 100%;
+         display:flex;
+         flex-direction: column;
+         gap: 15px;
+
+         h1{
+            font-size: 80px;
+            color: white;
+         }
+         p{
+            font-size: 28px;
+            color: white;
+         }
+         .svg-1{
+            display: flex;
+
+            h1{
+               font-size: 17px;
+            }
+         }
+         .svg-2{
+            display: flex;
+
+            h1{
+               font-size: 17px;
+            }
+      }
+      .svg-3{
+         display: flex;
+
+         h1{
+            font-size: 17px;
+         }
+     }
+   }
+     
+}
+   }
+   .section4{
+      width: 100%;
+      display: flex;
+
+      .orta-5{
+         width: 90%;
+         display: flex;
+      
+         
+      }
+   }
+

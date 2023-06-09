@@ -3,21 +3,35 @@
   padding: 0;
   box-sizing: border-box;
 }
+* .orta {
+  width: 90%;
+  display: flex;
+}
 
 .section1 {
   width: 100%;
+  margin: 0 auto;
   display: flex;
+  flex-direction: column;
   justify-content: center;
   background-image: url(./picture/crypto-card-hero-bgs.png);
 }
 .section1 header {
-  width: 85%;
+  margin: 0 auto;
+  width: 89%;
   display: flex;
   justify-content: space-between;
   margin-top: 20px;
+  flex-wrap: wrap;
+}
+.section1 header .text--1 {
+  display: none;
+}
+.section1 header .text--1 h1 {
+  font-size: 17px;
 }
 .section1 header .demos {
-  width: 53%;
+  width: 48%;
   display: flex;
 }
 .section1 header .demos ul {
@@ -38,4 +52,216 @@
   color: white;
   border-radius: 20px;
   padding: 10px;
+  outline: 0;
+  cursor: pointer;
+}
+.section1 .text-1 {
+  width: 100%;
+  display: flex;
+  margin: 40px 0px;
+  justify-content: end;
+}
+.section1 .text-1 .orta-1 {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+}
+.section1 .text-1 .orta-1 .text {
+  width: 50%;
+  display: flex;
+}
+.section1 .text-1 .orta-1 .text h1 {
+  color: white;
+  font-size: 80px;
+  font-weight: 700;
+  line-height: 1.075em;
+}
+.section1 .text-1 .orta-1 .picture {
+  width: 40%;
+}
+.section1 .text-1 .orta-1 .picture img {
+  width: 70%;
+  transform: rotate(11deg);
+}
+.section1 .all {
+  width: 100%;
+  display: flex;
+  justify-content: end;
+  margin-top: 30px;
+}
+.section1 .all .orta-2 {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.section1 .all .orta-2 .text {
+  width: 35%;
+}
+.section1 .all .orta-2 .text h1 {
+  font-size: 19px;
+  color: white;
+}
+.section1 .all .orta-2 .picture {
+  width: 40%;
+}
+.section1 .all .orta-2 .picture img {
+  width: 70%;
+  transform: rotate(355deg);
+}
+.section1 .orta-3 {
+  width: 90%;
+  display: flex;
+  align-items: center;
+  margin: 0 auto;
+  padding-bottom: 40px;
+}
+.section1 .orta-3 .button {
+  width: 150px;
+}
+.section1 .orta-3 .button button {
+  padding: 15px;
+  border-radius: 20px;
+  cursor: pointer;
+  border: none;
+}
+.section1 .orta-3 .start {
+  margin-right: 20px;
+}
+.section1 .orta-3 .start i {
+  font-size: 40px;
+  color: white;
+}
+.section1 .orta-3 .text h1 {
+  color: white;
+}
+
+.section2 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  background-color: #000000;
+}
+.section2 .up {
+  width: 90%;
+  margin-top: 100px;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.section2 .up .one h1 {
+  font-size: 80px;
+  color: white;
+}
+.section2 .up .one span {
+  font-size: 20px;
+  color: white;
+}
+.section2 .up .two h1 {
+  font-size: 80px;
+  color: white;
+}
+.section2 .up .two span {
+  font-size: 20px;
+  color: white;
+}
+.section2 .up .three h1 {
+  font-size: 80px;
+  color: white;
+}
+.section2 .up .three span {
+  font-size: 20px;
+  color: white;
+}
+.section2 .up .four h1 {
+  font-size: 80px;
+  color: white;
+}
+.section2 .up .four span {
+  font-size: 20px;
+  color: white;
+}
+.section2 .up-1 {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+  padding-top: 100px;
+}
+.section2 .up-1 .img {
+  width: 40%;
+}
+.section2 .up-1 .img img {
+  width: 100%;
+}
+.section2 .up-1 .text {
+  width: 45%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.section2 .up-1 h1 {
+  color: white;
+  font-size: 50px;
+}
+.section2 .up-1 p {
+  color: white;
+  font-size: 20px;
+}
+.section2 .up-1 span {
+  font-size: 20px;
+  color: white;
+}
+
+.section3 {
+  width: 100%;
+  display: flex;
+  background-color: #000000;
+}
+.section3 .orta-4 {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+}
+.section3 .orta-4 .left-1 {
+  width: 100%;
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+.section3 .orta-4 .left-1 h1 {
+  font-size: 80px;
+  color: white;
+}
+.section3 .orta-4 .left-1 p {
+  font-size: 28px;
+  color: white;
+}
+.section3 .orta-4 .left-1 .svg-1 {
+  display: flex;
+}
+.section3 .orta-4 .left-1 .svg-1 h1 {
+  font-size: 17px;
+}
+.section3 .orta-4 .left-1 .svg-2 {
+  display: flex;
+}
+.section3 .orta-4 .left-1 .svg-2 h1 {
+  font-size: 17px;
+}
+.section3 .orta-4 .left-1 .svg-3 {
+  display: flex;
+}
+.section3 .orta-4 .left-1 .svg-3 h1 {
+  font-size: 17px;
+}
+
+.section4 {
+  width: 100%;
+  display: flex;
+}
+.section4 .orta-5 {
+  width: 90%;
+  display: flex;
 }/*# sourceMappingURL=style.css.map */
