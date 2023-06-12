@@ -2,8 +2,22 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  font-family: "Inter", sans-serif;
 }
-* .orta {
+
+body {
+  overflow-x: hidden;
+}
+
+a {
+  text-decoration: none;
+}
+
+ul {
+  list-style: none;
+}
+
+.orta {
   width: 90%;
   display: flex;
 }
@@ -48,7 +62,7 @@
 }
 .section1 header .button button {
   width: 150px;
-  background-color: #13111A;
+  background-color: #13111a;
   color: white;
   border-radius: 20px;
   padding: 10px;
@@ -300,7 +314,7 @@
 .section5 .orta-6 .svg-1 svg {
   width: 12%;
   padding: 3px;
-  background-color: #724FE5;
+  background-color: #724fe5;
   border-radius: 50%;
 }
 .section5 .orta-6 .svg-1 h1 {
@@ -316,7 +330,7 @@
 .section5 .orta-6 .svg-2 svg {
   width: 12%;
   padding: 3px;
-  background-color: #724FE5;
+  background-color: #724fe5;
   border-radius: 50%;
 }
 .section5 .orta-6 .svg-2 h1 {
@@ -332,7 +346,7 @@
 .section5 .orta-6 .svg-3 svg {
   width: 12%;
   padding: 3px;
-  background-color: #724FE5;
+  background-color: #724fe5;
   border-radius: 50%;
 }
 .section5 .orta-6 .svg-3 h1 {
@@ -353,7 +367,7 @@
 
 .section7 {
   width: 100%;
-  background-color: #00E0B8;
+  background-color: #00e0b8;
 }
 .section7 .orta-8 {
   width: 90%;
@@ -380,34 +394,138 @@
 .section8 {
   width: 100%;
   display: flex;
+  justify-content: end;
   background-color: black;
 }
 .section8 .orta-9 {
-  width: 90%;
+  width: 71%;
   display: flex;
+  margin-top: 70px;
   flex-direction: column;
-  margin: 0 auto;
+  justify-content: end;
+  margin-bottom: 90px;
 }
-.section8 .orta-9 .text {
-  width: 44%;
+.section8 .text {
+  width: 57%;
   display: flex;
   justify-content: center;
+  gap: 20px;
   flex-direction: column;
 }
-.section8 .orta-9 .text h1 {
+.section8 .text h1 {
   color: white;
   font-size: 60px;
 }
-.section8 .orta-9 .text span {
+.section8 .text span {
   color: white;
   font-size: 20px;
 }
 
 .section9 {
+  width: 128vw;
+  display: flex;
+  background-color: #000000;
+  transform: translateX(-7em);
+}
+.section9 .orta-10 {
+  width: 90%;
+  display: flex;
+  gap: 25px;
+  margin-bottom: 100px;
+}
+.section9 .orta-10 .one {
+  width: 25%;
+  display: flex;
+  flex-direction: column;
+  background-color: #13111a;
+  border-radius: 7px;
+  gap: 10px;
+  padding: 22px;
+}
+.section9 .orta-10 .one h1 {
+  font-size: 29px;
+  color: white;
+  font-weight: 600;
+}
+.section9 .orta-10 .one span {
+  font-size: 26px;
+  color: white;
+}
+.section9 .orta-10 .one .one-1 {
+  display: flex;
+  gap: 10px;
+}
+.section9 .orta-10 .one .one-1 img {
+  width: 60px;
+  height: 60px;
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 50%;
+}
+.section9 .orta-10 .one .one-1 .text--1 {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.section9 .orta-10 .one .one-1 .text--1 h2 {
+  color: white;
+}
+.section9 .orta-10 .one .one-1 .text--1 span {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 19px;
+}
+.section9 .orta-10 .one .one-1 .text--1 h1 {
+  font-size: 20px;
+  color: white;
+  font-weight: 100;
+}
+
+.section10 {
   width: 100%;
   display: flex;
   background-color: #000000;
 }
-.section9 .orta-10 {
+.section10 .orta-11 {
   width: 90%;
+  display: flex;
+  margin: 0 auto;
+  justify-content: space-between;
+}
+.section10 .orta-11 .left {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+.section10 .orta-11 .left h1 {
+  color: white;
+  font-size: 57px;
+}
+.section10 .orta-11 .left span,
+.section10 .orta-11 .left p {
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 17px;
+}
+.section10 .orta-11 .left .button-1 button {
+  width: 190px;
+  background-color: #724fe5;
+  border-radius: 30px;
+  height: 55px;
+  padding: 5px;
+  border: none;
+  cursor: pointer;
+  color: white;
+  font-size: 17px;
+}
+.section10 .orta-11 .right {
+  width: 40%;
+  animation: firlan 8s ease-in infinite;
+}
+@keyframes firlan {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
 }/*# sourceMappingURL=style.css.map */
