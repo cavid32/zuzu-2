@@ -425,7 +425,6 @@ ul {
   width: 128vw;
   display: flex;
   background-color: #000000;
-  transform: translateX(-7em);
 }
 .section9 .orta-10 {
   width: 90%;
@@ -490,6 +489,7 @@ ul {
   display: flex;
   margin: 0 auto;
   justify-content: space-between;
+  margin-bottom: 100px;
 }
 .section10 .orta-11 .left {
   width: 40%;
@@ -528,4 +528,97 @@ ul {
   100% {
     transform: rotate(360deg);
   }
+}
+.section11 {
+  width: 100%;
+  display: flex;
+  background-color: #000000;
+}
+.section11 .orta-12 {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: center;
+  background-repeat: no-repeat;
+  background-image: url("https://mthemeus.com/demos/wp/zuzu/wp-content/uploads/2023/02/cta-bg.png");
+}
+.section11 .orta-12 .left {
+  width: 40%;
+}
+.section11 .orta-12 .left img {
+  transform: translateY(-100px);
+}
+.section11 .orta-12 .right {
+  width: 40%;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+.section11 .orta-12 .right .text-1 h1 {
+  font-size: 54px;
+  color: white;
+}
+.section11 .orta-12 .right .text-1 span {
+  color: #CACEE1;
+}
+.section11 .orta-12 .right .top {
+  display: flex;
+  gap: 10px;
+}
+.section11 .orta-12 .right .top .app img {
+  width: 176px;
+}
+.section11 .orta-12 .right .top .play img {
+  width: 189px;
+}
+
+.section12 {
+  width: 100%;
+  background-color: #000000;
+}
+.section12 .orta-13 {
+  width: 90%;
+  display: flex;
+  margin: 0 auto;
+}
+.section12 .orta-13 .one {
+  width: 20%;
+}
+.section12 .orta-13 .one h1 {
+  color: #999999;
+  font-size: 17px;
+}
+.section12 .orta-13 .one .icon {
+  gap: 27px;
+  width: 100%;
+  display: flex;
+}
+.section12 .orta-13 .one .icon i {
+  color: white;
+  border-radius: 50%;
+  gap: 50px;
+  -o-object-fit: cover;
+     object-fit: cover;
+}
+.section12 .orta-13 .two {
+  width: 20%;
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+.section12 .orta-13 .two h1 {
+  color: white;
+  font-size: 22px;
+}
+.section12 .orta-13 .two ul {
+  display: flex;
+  flex-direction: column;
+  gap: 6px;
+}
+.section12 .orta-13 .two li {
+  gap: 10px;
+}
+.section12 .orta-13 .two li a {
+  color: #999999;
 }/*# sourceMappingURL=style.css.map */

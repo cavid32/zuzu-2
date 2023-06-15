@@ -470,7 +470,7 @@ ul {
   width: 128vw;
   display: flex;
   background-color: #000000;
-  transform: translateX(-7em);
+  
 
   .orta-10 {
     width: 90%;
@@ -539,6 +539,7 @@ ul {
     display: flex;
     margin: 0 auto;
     justify-content: space-between;
+    margin-bottom: 100px;
 
     .left {
       width: 40%;
@@ -586,3 +587,118 @@ ul {
     }
   }
 }
+.section11{
+  width: 100%;
+  display: flex;
+  background-color: #000000;
+ 
+
+  .orta-12{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+    align-items:center;
+  justify-content: center;
+    background-repeat: no-repeat;
+    background-image: url("https://mthemeus.com/demos/wp/zuzu/wp-content/uploads/2023/02/cta-bg.png");
+
+    .left{
+      width: 40%;
+
+      img{
+        transform: translateY(-100px);
+      }
+    }
+    .right{
+      width: 40%;
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+     
+
+      .text-1{
+
+        h1{
+          font-size: 54px;
+          color: white;
+        }
+        span{
+          color: #CACEE1;
+        }
+      }
+      .top{
+        display: flex;
+        gap: 10px;
+
+        .app{
+          img{
+            width: 176px;
+          }
+        }
+        .play{
+          img{
+            width: 189px;
+          }
+        }
+      }
+    }
+  }
+}
+.section12{
+  width: 100%;
+  background-color: #000000;
+  .orta-13{
+    width: 90%;
+    display: flex;
+    margin: 0 auto;
+
+    .one{
+      width: 20%;
+
+      h1{
+        color: #999999;
+        font-size: 17px;
+      }
+
+      .icon{
+        gap: 27px;
+        width: 100%;
+        display: flex;
+    
+        i{
+          color: white;
+          border-radius: 50%;
+          gap: 50px;
+          object-fit: cover;
+          
+        }
+      }
+    }
+    .two{
+      width: 20%;
+      display: flex;
+      flex-direction: column;
+      gap: 10px;
+
+      h1{
+        color: white;
+        font-size: 22px;
+      }
+      ul{
+        display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+      li{
+        gap: 10px;
+        a{
+          color: #999999;
+        }
+      }
+      }
+    }
+    .three{
+
+    }
+  }
+
