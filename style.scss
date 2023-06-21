@@ -802,7 +802,7 @@ header{
       gap: 20px;
     }
     .up-1{
-      width: 100%;
+      width: 90%;
       flex-direction: column;
       .img{
         width: 100%;
@@ -836,7 +836,7 @@ header{
   }
   .section4{
     .orta-5{
-      width: 100%;
+      width: 90%;
 
       h1{
         font-size:35px;
@@ -931,10 +931,55 @@ header{
   .section11{
     background-color: #295F50;
     .orta-12{
-      width: 100%;
+      width: 90%;
       flex-wrap: wrap;
       flex-direction: column-reverse;
+      background:transparent;
+      gap: 110px;
+      .left{
+        width: 100%;
+      }
+
+      .right{
+        width: 100%;
+
+        h1{
+          font-size: 41px;
+        }
+        span{
+          font-size: 24px;
+        }
+        .top{
+          flex-direction: column;
+        }
+      }
     }
   }
+  .section12{
+    .orta-13{
+      flex-direction: column;
+      gap: 20px;  
+
+      .one{
+        width: 97%;
+      }
+      .three{
+        width: 83%;
+
+        .input{
+          flex-direction: column;
+          gap: 20px;
+        }
+      }
+    }
+  }
+  }
+  @media(min-width:768px) and (max-width:1068px)
+  {
+    .section1{
+      header{
+        .img-1, .text--1, .demos
+      }
+    }
   }
 

@@ -706,7 +706,7 @@ ul {
     gap: 20px;
   }
   .section2 .up-1 {
-    width: 100%;
+    width: 90%;
     flex-direction: column;
   }
   .section2 .up-1 .img {
@@ -731,7 +731,7 @@ ul {
     width: 370px;
   }
   .section4 .orta-5 {
-    width: 100%;
+    width: 90%;
   }
   .section4 .orta-5 h1 {
     font-size: 35px;
@@ -805,8 +805,39 @@ ul {
     background-color: #295F50;
   }
   .section11 .orta-12 {
-    width: 100%;
+    width: 90%;
     flex-wrap: wrap;
     flex-direction: column-reverse;
+    background: transparent;
+    gap: 110px;
+  }
+  .section11 .orta-12 .left {
+    width: 100%;
+  }
+  .section11 .orta-12 .right {
+    width: 100%;
+  }
+  .section11 .orta-12 .right h1 {
+    font-size: 41px;
+  }
+  .section11 .orta-12 .right span {
+    font-size: 24px;
+  }
+  .section11 .orta-12 .right .top {
+    flex-direction: column;
+  }
+  .section12 .orta-13 {
+    flex-direction: column;
+    gap: 20px;
+  }
+  .section12 .orta-13 .one {
+    width: 97%;
+  }
+  .section12 .orta-13 .three {
+    width: 83%;
+  }
+  .section12 .orta-13 .three .input {
+    flex-direction: column;
+    gap: 20px;
   }
 }/*# sourceMappingURL=style.css.map */
