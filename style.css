@@ -933,7 +933,69 @@ ul {
   .section9 {
     width: 100%;
   }
-  .section9 .orta-10 .one:nth-child(34) {
+  .section9 .orta-10 .one:nth-child(3) {
     display: none;
+  }
+  .section9 .orta-10 .one:nth-child(4) {
+    display: none;
+  }
+  .section9 .orta-10 .one:nth-child(5) {
+    display: none;
+  }
+  .section9 .orta-10 .one {
+    width: 52%;
+  }
+  .section10 .orta-11 {
+    flex-direction: column-reverse;
+    align-items: center;
+  }
+  .section10 .orta-11 .right {
+    width: 75%;
+    margin-bottom: 50px;
+  }
+  .section10 .orta-11 .left {
+    width: 99%;
+    align-items: center;
+    margin-bottom: 70px;
+  }
+  .section10 .orta-11 .left span {
+    font-size: 21px;
+  }
+  .section11 .orta-12 {
+    flex-direction: column-reverse;
+  }
+  .section11 .orta-12 .right {
+    width: 82%;
+    margin-bottom: 100px;
+    align-items: center;
+  }
+  .section11 .orta-12 .right span {
+    font-size: 18px;
+  }
+  .section11 .orta-12 .left {
+    width: 100%;
+    margin-top: 50px;
+    align-items: center;
+    display: flex;
+    justify-content: center;
+  }
+  .section12 .orta-13 {
+    flex-direction: column;
+  }
+  .section12 .orta-13 .one {
+    width: 90%;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    margin-top: 40px;
+  }
+  .section12 .orta-13 .div {
+    width: 76%;
+    justify-content: space-between;
+    display: flex;
+  }
+  .section12 .orta-13 .div .three .input .button-1 button {
+    width: 100px;
   }
 }/*# sourceMappingURL=style.css.map */

@@ -1107,11 +1107,89 @@ display: none ;
     .section9{
       width: 100%;
       .orta-10{
-       .one:nth-child(3, 4){
+       .one:nth-child(3){
         display: none;
        }
+       .one:nth-child(4){
+        display: none;
+       }
+       .one:nth-child(5){
+        display: none;
+       }
+       .one{
+        width: 52%;
+       }
+      }
+    }
+    .section10{
+      .orta-11{
+        flex-direction: column-reverse;
+        align-items: center;
+        .right{
+          width: 75%;
+          margin-bottom: 50px;
+        }
+        .left{
+          width: 99%;
+          align-items: center;
+          margin-bottom: 70px;
+          span{
+            font-size: 21px;
+          } 
+
+        }
+
+      }
+    }
+    .section11{
+      .orta-12{
+        flex-direction: column-reverse;
+        .right{
+          width: 82%;
+          margin-bottom: 100px;
+          align-items: center;
+          span{
+            font-size: 18px;
+          }
+      }
+      .left{
+        width: 100%;
+        margin-top: 50px;
+        align-items: center;
+        display: flex;
+        justify-content: center;
+    
       }
     }
   
   }
+  .section12{
+    .orta-13{
+      flex-direction: column;
+      .one{
+        width: 90%;
+    gap: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    margin-bottom: 30px;
+    margin-top: 40px;
+      }
+      .div{
+        width: 76%;
+        justify-content: space-between;
+        display: flex;
+
+        .three{
+          .input{
+            .button-1{
+              button{
+                width: 100px; 
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}
 
